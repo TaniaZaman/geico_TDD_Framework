@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //div[@id='bundleModalBtn']/p/a]<---------> is Enable<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //div[@id='bundleModalBtn']/p/a] ---> Actual text : Start My Quote. Expected text : Start My Quote<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //div[@id='bundleModalBtn']/p/a]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: (//h2[@class='modal-headline'])[1]] ---> Actual Header : You're getting an auto quote today!. Expected Header : You're getting an auto quote today!<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //strong[contains(text(), 'Want to')]] ---> Actual Sub Header : Want to bundle your policy?. Expected SubHeader : Want to bundle your policy?<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: (//div[@class='product-checkbox'])[8]]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //input[@data-quote-start] '<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //input[contains(@id, 'Id_GiveDate')]]<---------> has been clicked<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-13T13:09:49 EST" name="Default suite" finished-at="2023-12-13T13:10:49 EST" duration-ms="60079">
+    <groups>
+    </groups>
+    <test started-at="2023-12-13T13:09:49 EST" name="Default test" finished-at="2023-12-13T13:10:49 EST" duration-ms="60079">
+      <class name="test.StartMyQuotePageTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:test.StartMyQuotePageTest@5ab956d7]" started-at="2023-12-13T13:09:49 EST" name="setUP" finished-at="2023-12-13T13:09:58 EST" duration-ms="9409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="getMyQuoteTest()[pri:0, instance:test.StartMyQuotePageTest@5ab956d7]" started-at="2023-12-13T13:09:58 EST" name="getMyQuoteTest" finished-at="2023-12-13T13:10:48 EST" duration-ms="49776" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at pages.StartMyQuotePage.aboutYouselectbirth(StartMyQuotePage.java:78)
+at test.StartMyQuotePageTest.getMyQuoteTest(StartMyQuotePageTest.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //div[@id='bundleModalBtn']/p/a]<---------> is Enable<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //div[@id='bundleModalBtn']/p/a] ---> Actual text : Start My Quote. Expected text : Start My Quote<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //div[@id='bundleModalBtn']/p/a]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: (//h2[@class='modal-headline'])[1]] ---> Actual Header : You're getting an auto quote today!. Expected Header : You're getting an auto quote today!<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //strong[contains(text(), 'Want to')]] ---> Actual Sub Header : Want to bundle your policy?. Expected SubHeader : Want to bundle your policy?<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: (//div[@class='product-checkbox'])[8]]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //input[@data-quote-start] '<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //input[contains(@id, 'Id_GiveDate')]]<---------> has been clicked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getMyQuoteTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:test.StartMyQuotePageTest@5ab956d7]" started-at="2023-12-13T13:10:48 EST" name="tearUp" finished-at="2023-12-13T13:10:49 EST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- test.StartMyQuotePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
