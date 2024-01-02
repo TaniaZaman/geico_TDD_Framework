@@ -12,10 +12,6 @@ public interface IConstant {
 		String FIREFOX = "firefox";
 		String EDGE = "edge";
 		String SAFARI = "safari";
-		String ZIPCODE = "zipcde";
-		String FIRST_NAME = "first_name";
-		String MIDDLE_NAME = "middle_name";
-		String LAST_NAME = "last_name";
 		
 
 }

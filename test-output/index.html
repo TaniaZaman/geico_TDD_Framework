@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,7 +21,8 @@
      -->
   </head>
 
-  <body>    <div class="top-banner-root">
+  <body>
+    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -50,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Tania Sultana\AppData\Local\Temp\testng-eclipse-62434683\testng-customsuite.xml</span>
+                    <span>C:\Users\Tania Sultana\AppData\Local\Temp\testng-eclipse--1693485788\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -130,33 +131,33 @@
                   </a> <!-- getMyQuoteTest -->
                   <span class="method-name">getMyQuoteTest</span>
                   <div class="stack-trace">java.lang.NullPointerException
-	at pages.StartMyQuotePage.aboutYouselectbirth(StartMyQuotePage.java:78)
-	at test.StartMyQuotePageTest.getMyQuoteTest(StartMyQuotePageTest.java:13)
+	at pages.StartMyQuotePage.inputFirstAndLastName(StartMyQuotePage.java:315)
+	at test.StartMyQuotePageTest.getMyQuoteTest(StartMyQuotePageTest.java:14)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -169,7 +170,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Tania Sultana\AppData\Local\Temp\testng-eclipse-62434683\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Tania Sultana\AppData\Local\Temp\testng-eclipse--1693485788\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -226,7 +227,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getMyQuoteTest')
 data.setCell(0, 2, 'test.StartMyQuotePageTest')
-data.setCell(0, 3, 49776);
+data.setCell(0, 3, 49341);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -245,14 +246,21 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">getMyQuoteTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //div[@id='bundleModalBtn']/p/a]<---------> is Enable<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //div[@id='bundleModalBtn']/p/a] ---> Actual text : Start My Quote. Expected text : Start My Quote<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //div[@id='bundleModalBtn']/p/a]<---------> has been clicked<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: (//h2[@class='modal-headline'])[1]] ---> Actual Header : You're getting an auto quote today!. Expected Header : You're getting an auto quote today!<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //strong[contains(text(), 'Want to')]] ---> Actual Sub Header : Want to bundle your policy?. Expected SubHeader : Want to bundle your policy?<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: (//div[@class='product-checkbox'])[8]]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (344c635e3f5d084dd3c1278e0176594c)] -> xpath: //div[@id='bundleModalBtn']/p/a]<---------> is Enabled, true<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (344c635e3f5d084dd3c1278e0176594c)] -> xpath: //div[@id='bundleModalBtn']/p/a] ---> Actual text : Start My Quote. Expected text : Start My Quote<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (344c635e3f5d084dd3c1278e0176594c)] -> xpath: //div[@id='bundleModalBtn']/p/a]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (344c635e3f5d084dd3c1278e0176594c)] -> xpath: (//h2[@class='modal-headline'])[1]] ---> Actual Header : You're getting an auto quote today!. Expected Header : You're getting an auto quote today!<br></span>
+                <span class="reporter-method-output">11432 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (344c635e3f5d084dd3c1278e0176594c)] -> name: POL_ratedZip5] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (344c635e3f5d084dd3c1278e0176594c)] -> xpath: //strong[contains(text(), 'Want to')]] ---> Actual Sub Header : Want to bundle your policy?. Expected SubHeader : Want to bundle your policy?<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (344c635e3f5d084dd3c1278e0176594c)] -> xpath: (//div[@class='product-checkbox'])[8]]<---------> has been clicked<br></span>
                 <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //input[@data-quote-start] '<---------> has been clicked<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (a3b02ae9051052d5d2c2dcb35efa45d7)] -> xpath: //input[contains(@id, 'Id_GiveDate')]]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (344c635e3f5d084dd3c1278e0176594c)] -> xpath: //h3[contains(text(), 'Let’s')]] ---> Actual Header : Let’s get started.. Expected Header : Let’s get started.<br></span>
+                <span class="reporter-method-output">10/18/1973 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (344c635e3f5d084dd3c1278e0176594c)] -> xpath: //input[contains(@id, 'Id_GiveDate')]]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(@id, 'Id_Give')]'<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -271,19 +279,23 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">test.StartMyQuotePageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUP</span>
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSetUp</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP(chrome)</span>
+                <span class="method-start">33 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getMyQuoteTest</span>
-                <span class="method-start">9414 ms</span>
+                <span class="method-start">5647 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">59207 ms</span>
+                <span class="method-start">55003 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
