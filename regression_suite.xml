@@ -15,7 +15,7 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="pages.HomePageTest" />
+			<class name="test.HomePageTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

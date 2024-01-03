@@ -309,7 +309,7 @@ public class StartMyQuotePage extends BaseClass {
 
 	public void inputFirstAndLastName() {
 
-		//validationOfHeader(headerOfAboutYourselfPage, "Tell us about yourself.");
+		validationOfHeader(headerOfAboutYourselfPage, "Tell us about yourself.");
 
 
 		inputText(firstName,configuration.getProperties(FIRST_NAME));
